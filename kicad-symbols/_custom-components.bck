@@ -8,6 +8,12 @@ $CMP CMWX1ZZABZ-078
 D MURATA Lorawan SIP
 $ENDCMP
 #
+$CMP ESP32-C3
+D Ultra­Low­Power SoC with RISC­V Single­Core CPU
+K Supporting 2.4 GHz Wi­Fi and Bluetooth LE
+F https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
+$ENDCMP
+#
 $CMP ESP32-PICO-D4
 D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
 K RF Radio BT ESP ESP32 Espressif external antenna
