@@ -1,0 +1,23 @@
+(module LED-LS8822-2020 (layer F.Cu) (tedit 607C37A1)
+  (attr smd)
+  (fp_text reference D7 (at 0 2.05) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  )
+  (fp_text value LS8822-2020 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.5 -1.1) (end 0.5 -1.1) (layer F.SilkS) (width 0.12))
+  (fp_line (start 0.5 1.15) (end -0.5 1.15) (layer F.SilkS) (width 0.12))
+  (fp_circle (center -1.3 -1.2) (end -1.119722 -1.2) (layer F.SilkS) (width 0.1))
+  (pad 4 smd rect (at 0.7 -0.8) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -0.7 -0.8) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -0.7 0.8) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 6 smd rect (at 0.7 0.8) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at 0.7 0) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.7 0) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (model "/Users/thorsten/Library/Mobile Documents/com~apple~CloudDocs/hardware-dev/FortiThing/Shared Assets and Libraries/NS107_2020_LED.iges"
+    (offset (xyz -1 1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
