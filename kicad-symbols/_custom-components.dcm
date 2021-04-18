@@ -40,4 +40,9 @@ $CMP LoRa-E5
 D Seeed LoRa-E5 SIP
 $ENDCMP
 #
+$CMP USB_XKB_U263-241N-4BQC11
+D USB Connectors SMD RoHS
+F https://datasheet.lcsc.com/szlcsc/1903150934_XKB-Enterprise-U263-241N-4BQC11-1_C381139.pdf
+$ENDCMP
+#
 #End Doc Library
